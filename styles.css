@@ -1,0 +1,117 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 22px;
+    color: #222;
+    margin-top: 30px;
+}
+
+h4{
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 18px;
+    color: #333;
+    width: 80%;
+    margin: 10px auto;
+}
+
+/*Order List Stlying*/
+ol {
+    font-size: 15px; 
+    color: #333; 
+}
+
+ol li {
+    margin-bottom: 10px; 
+}
+
+
+/*Image Styling*/
+img {
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
+
+/* Navigation Styling */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* ---CUSTOM CLASS NAME SELECTORS--- */
+.training img {
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+#rl-main:hover{
+    transform: scaleX(-1);
+}
